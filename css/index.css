@@ -1,0 +1,32 @@
+.TopNavbar{
+    background-color: dimgrey;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.mainPage{
+display: flex;
+flex-wrap: wrap;
+height: 90%;
+flex-direction: row;
+justify-content: space-between;
+}
+.right-side-page{
+
+}
+.left-side-page{
+    width:400px;
+background-color: dimgrey;
+text-align: center;
+
+}
+h5{
+color: white;
+font-size: 20px;
+}
+.footer{
+    text-align: center;
+    color:#A39E9E;
+}
