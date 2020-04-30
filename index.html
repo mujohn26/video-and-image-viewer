@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,31 +5,33 @@
     <title>youtube</title>
     <link rel="stylesheet" href="./css/index.css" />
 
-</head>
+  </head>
 
 
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="https://img.icons8.com/cute-clipart/50/000000/youtube.png" alt="" />
-        </div>
-        <div class="search">
-            <input type="text" name="search" value="" class="search field" placeholder="Search">
-            <button type="button" name="button" class="search-button">Search</button>
-        </div>
-        <div class="avatar">
-            <img src="https://img.icons8.com/metro/26/000000/appointment-reminders.png" alt="" />
-            <img src="https://img.icons8.com/material/24/000000/circled-menu.png" alt="" />
-            <img src="https://img.icons8.com/material-outlined/24/000000/youtube-live.png" alt />
-            <img class="profil" src="https://img.icons8.com/material-outlined/24/000000/user-female-circle.png"
-                alt="" />
-
-        </div>
-    </nav>
+        <nav class="navbar">
+                <div class="logo">
+                  <img src="https://img.icons8.com/cute-clipart/50/000000/youtube.png"/>
+                </div>
+                <div class="search">
+                  <!-- <label for="search">Search</label> -->
+                  <input type="text" name="search" value="" class="search field" placeholder="Search">
+                  <button type="button" name="button" class="search-button" >Search</button>
+                </div>
+                <div class="avatar">
+                  <img src="https://img.icons8.com/metro/26/000000/appointment-reminders.png"/>
+                  <img src="https://img.icons8.com/material/24/000000/circled-menu.png"/>
+                  <img src="https://img.icons8.com/material-outlined/24/000000/youtube-live.png"/>
+                  <img class="profil" src="https://img.icons8.com/material-outlined/24/000000/user-female-circle.png"/>
+                  
+                </div>
+              </nav>
     <br />
     <div class="mainPage">
         <div class="right-side-page">
-            <iframe class="iframe-main-tag" src="https://www.youtube.com/embed/V74l_zS1x8E"></iframe>
+            <iframe class="iframe-main-tag" src="https://www.youtube.com/embed/V74l_zS1x8E"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             <br><br>
             <div class="video-title">
                 Learn HTML
@@ -44,181 +45,85 @@
                 </div>
                 <div class="video-subscribution">
                     <div>
-                        <a href="#">
-                            <img src="./images/like.png" alt="" />
-                            <img src="./images/dislike.png" alt="" />
-                        </a>
-                    </div>
-                    &nbsp;&nbsp;&nbsp;
-                    <div>
-
                         <a href="#" class="share-page">
-                            <img src="./images/share.png" class="share-view" alt="" />SHARE
+                            <img src="./images/share.png" class="share-view" />share
                         </a>
 
                     </div>
-                </div>
-            </div>
-            <hr class="line">
-            <div class="subscribe-button">
-                <div class="user-avatar">
-                    <div>
-                        <img src="./images//user.png" alt="" />
-                    </div>
-                    &nbsp;&nbsp;
-                    <div>
-                        <p>John MUGIRANEZA </p>
-                    </div>
-                </div>
-                <div>
-
-                    <button>Subscribe</button>&nbsp;&nbsp;<a href="#"><img src="./images/notifications.png" height="26"
-                            alt="" /></a>
-                </div>
-            </div>
-            <hr class="line">
-            <div class="comment-title">
-                <div>
-                    <p>12 Comments</p>
-                </div>
-                <div class="sort-section">
-                    <div>
+                    <div class="like-page">
                         <a href="#">
-                            <img src="./images/sort.png" alt="" height="35" />
+                            <img src="./images/like.png" />
+                            <img src="./images/dislike.png" />
                         </a>
-                    </div>
-                    <div>
-                        <p>SORT BY</p>
-                    </div>
 
-
-                </div>
-            </div>
-            <div>
-                <div class="comment-avatar">
-                    <div>
-                        <img src="./images//user.png" alt="" height="40" />
                     </div>
-                    <div class="comment-author">
-                        <p class="comment-author-name">John MUGIRANEZA </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text
-                        </p>
-                    </div>
-                </div>
-                <div class="comment-avatar">
-                    <div>
-                        <img src="./images//user.png" alt="" height="40" />
-                    </div>
-                    <div class="comment-author">
-                        <p class="comment-author-name">John MUGIRANEZA </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text
-                        </p>
-                    </div>
-                </div>
-                <div class="comment-avatar">
-                    <div>
-                        <img src="./images//user.png" alt="" height="40" />
-                    </div>
-                    <div class="comment-author">
-                        <p class="comment-author-name">John MUGIRANEZA </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text
-                        </p>
-                    </div>
-                </div>
-                <div class="comment-avatar">
-                    <div>
-                        <img src="./images//user.png" alt="" height="40" />
-                    </div>
-                    <div class="comment-author">
-                        <p class="comment-author-name">John MUGIRANEZA </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text
-                        </p>
+                    <div class="subscribe-button">
+                        <button>Subscribe</button>
                     </div>
                 </div>
             </div>
-
+            <hr class="line">
         </div>
         <div class="left-side-page">
-            <h5>Recommended videos</h5>
+            <h5>My videos</h5>
             <div class="video-container">
                 <div class="sub-video-container">
                     <div>
-                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/V74l_zS1x8E"></iframe>
+                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/V74l_zS1x8E"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="video-link">
                         Learn HTML
-                        <p class="video-writer">
-                            John PETER
-                        </p>
-                        <p class="video-views">
-                            32k views . 1 day
-                        </p>
                     </div>
                 </div>
                 <br>
                 <div class="sub-video-container">
                     <div>
-                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/Ttf3CEsEwMQ"></iframe>
+                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/Ttf3CEsEwMQ"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="video-link">
                         Learn HTML
-                        <p class="video-writer">
-                            John PETER
-                        </p>
-                        <p class="video-views">
-                            2k views . 1 day
-                        </p>
                     </div>
                 </div>
                 <br>
                 <div class="sub-video-container">
                     <div>
-                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/o1IaduQICO0"></iframe>
+                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/o1IaduQICO0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="video-link">
-                        <p>Learn HTML</p>
-                        <p class="video-writer">
-                            John PETER
-                        </p>
-                        <p class="video-views">
-                            3k views . 1 day
-                        </p>
+                        Learn HTML
                     </div>
                 </div>
                 <br>
                 <div class="sub-video-container">
                     <div>
-                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/W6NZfCO5SIk"></iframe>
+                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/W6NZfCO5SIk"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="video-link">
                         Learn HTML
-                        <p class="video-writer">
-                            John PETER
-                        </p>
-                        <p class="video-views">
-                            32 views . 1 day
-                        </p>
                     </div>
                 </div>
                 <br>
                 <div class="sub-video-container">
                     <div>
-                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/W6NZfCO5SIk"></iframe>
+
+                        <iframe class="iframe-tag" src="https://www.youtube.com/embed/uDwSnnhl1Ng" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
                     </div>
                     <div class="video-link">
-                        Learn HTML
-                        <p class="video-writer">
-                            John PETER
-                        </p>
-                        <p class="video-views">
-                            12k views . 1 day
-                        </p>
+                        Tutorials
                     </div>
                 </div>
+
             </div>
 
         </div>
@@ -229,3 +134,4 @@
 </body>
 
 </html>
+
