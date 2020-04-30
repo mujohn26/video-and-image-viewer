@@ -1,5 +1,5 @@
 .navbar{
-    background-color: dimgray;
+
     width: 100%;
     height: 80px;
     text-align: center;
@@ -13,26 +13,30 @@
 }
 .avatar{
     display: inline;
-    margin-top: 20px ;
-    margin-left: 350px;   
+    margin-top: 10px ;
+    margin-left: 300px;   
       
+}
+.prfil{
+    padding-left: 10px;
 }
 .search{
     text-align: left;
+    height: 35px;
     display: inline;
     padding-left: 200px;
     margin-top: 10px;
 }
 .search-button {
     background-color: #bf1408;
-    height:20px;
+    height:35px;
     width: 100px;
     color: white;
     border: 0px;
 
   }
 .earch-field {
-    height: 30px;
+    height: 35px;
     width: 200px;
     margin-top: 27px;
     padding-left: 50px;
