@@ -14,8 +14,8 @@ This project consists of building an HTML document that matches the appearance o
 
 ## Screenshot
 
-<img width="1440" alt="Screen Shot 2020-04-30 at 11 44 46" src="https://user-images.githubusercontent.com/52497006/80696712-19e18300-8ad8-11ea-816a-0f6eb72f6e48.png">
-<img width="1439" alt="Screen Shot 2020-04-30 at 11 44 55" src="https://user-images.githubusercontent.com/52497006/80696740-282f9f00-8ad8-11ea-9830-3c568028fe59.png">
+<img width="1413" alt="Screen Shot 2020-05-04 at 11 45 53" src="https://user-images.githubusercontent.com/52497006/80954192-31cd4580-8dfd-11ea-93ff-6edc11628f86.png">
+<img width="1437" alt="Screen Shot 2020-05-04 at 11 46 02" src="https://user-images.githubusercontent.com/52497006/80954213-3b56ad80-8dfd-11ea-9bb4-bc2cd689f13f.png">
 
 ### Raising an issue
 
